@@ -10,40 +10,71 @@
 ## スキル
 ### 言語
 - Python
+  - Django
 - Rust
+- Go
+- SQL
+- Bash
 - C#
 - JavaScript
 - Ruby
 - PHP
 - HTML, CSS
-- SQL
 
-### フレームワーク
-- Django
-- BootStrap
-- Ruby on Rails
-- Laravel
-
-### OS
-- Windows10
-- Linux系OS
-- HP-UX
-- macOS
-
-### その他
-- ShellScript
-- Git
+### インフラ
 - AWS
+  - ECS
+  - EC2
+  - ALB
+  - WAF
+  - VPC
+  - S3
+  - RDS
+  - DocumentDB
+  - ElastiCache
+  - CloudWatch
+  - EventBridge
+  - StepFunction
+  - CodeBuild
+  - Lambda
+  - API Gateway
+  - Athena
+  - OpenSearch（ElasticSearch）
+- Terraform
+- Docker
+- Kubernetes
+- fluent-bit
+
+### 開発手法
+- ウォーターフォール
+- アジャイル
+  - スクラム
+
+### 開発ツール
+- Git
+- GitHub
+- Postman
+- Gatling
+- VSCode
+
+### その他ツール
+- Slack
+- Notion
+- Jira
+- Confluence
+
+### 資格
+- AWS クラウドプラクティショナー（2023年11月）
 - 基本情報技術者試験（2018年5月）
 - 日商簿記2級（2013年2月）
 
 ## 自然言語
-
 - 日本語
   - ネイティブ
 - 英語
   - TOEIC-IP: 770点（2015年11月）
   - 英検2級
+  - CEFR B2
 
 ## 強み
 - 新規技術の習得に抵抗がない
@@ -64,34 +95,72 @@
 サーバーサイドエンジニアとして入社。
 
 ---
-#### 2022/07 - : リフォーム会社向け業務システム開発
+#### 2023/05 - : 通信会社向けAPIゲートウェイ保守・スマートシティ対応
+- Go
+- Python
+- Shell
+- AWS
+  - ECS
+  - EC2
+  - ALB
+  - WAF
+  - VPC
+  - S3
+  - DocumentDB
+  - ElastiCache
+  - CloudWatch
+  - EventBridge
+  - StepFunction
+  - CodeBuild
+  - Lambda
+  - API Gateway
+  - Athena
+  - OpenSearch（ElasticSearch）
+- Terraform
+- Docker
+- Kubernetes
+- fluent-bit
+- アジャイル
+  - スクラム
+
+社内向けのAPIを取りまとめて認証・認可、流量制限等を行うリバースプロキシ。  
+保守・運用改善とスマートシティ対応のフェーズ。  
+スクラムチームの開発メンバーとして、コード修正、インフラ修正など、設計以降の業務を幅広く対応した。  
+月間数十億リクエストあり、低遅延、低負荷、低コストを意識した設計が必要とされた。  
+
+
+---
+#### 2022/07 - 2023/04 : リフォーム会社向け業務システム開発
 - Rust
-- Actix-web
-- Diesel
+  - Actix-web
+  - Diesel
 - AWS
   - ECS
   - Fargate
   - RDS
   - Site-to-Site VPN
+- Docker
+- ウォーターフォール
 
-レガシーな業務アプリの刷新。サーバーサイドのAPI、バッチ、インフラを担当。
-AS400+グループウェア+Excelの現行システムをモダンなWebアプリに落とし込む。
+レガシーな業務アプリの刷新。サーバーサイドのAPI、バッチ、インフラを担当。  
+AS400+グループウェア+Excelの現行システムをモダンなWebアプリに落とし込んだ。
 
 
 ---
 #### 2022/02 - 2022/06 : 建設業界向けチャットアプリ開発
 - Python
-- Django REST Framework
+  - Django REST Framework
 - AWS
   - ECS
   - Fargate
   - RDS
   - SES
   - MediaConvert
+- ウォーターフォール
 
 チャットアプリの新規開発。サーバーサイドのAPI、インフラを担当。
 
-
+---
 ### 2017/04 - 2021/12 : 株式会社エイエイエスティ
 新卒で入社し、2021年12月に退職。
 
@@ -174,7 +243,7 @@ Webアプリの開発。
   言語はPHP, フレームワークはLaravelを使用。
 * Bottletter(公開停止済み)
 
-  ボトルメールをモチーフとしたシンプルなSNS。現在機能追加中。  
+  ボトルメールをモチーフとしたシンプルなSNS。
   言語はRuby(3系), フレームワークはRails(6系)を使用。
 
 ### 執筆
