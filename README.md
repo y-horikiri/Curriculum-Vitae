@@ -35,12 +35,13 @@
 |key|value|
 |---|-----|
 |Name|堀切 佑太郎（ほりきり ゆうたろう）|
-|X|[@y_horikiri](https://twitter.com/y_horikiri)|
+|Bluesky|[@y-horikiri](https://bsky.app/profile/y-horikiri.bsky.social)|
 
 ## スキル
 ### 言語
 - Python
   - Django
+  - FastAPI
 - Rust
 - Go
 - SQL
@@ -60,6 +61,8 @@
   - VPC
   - S3
   - RDS
+  - SES
+  - SNS
   - DocumentDB
   - ElastiCache
   - CloudWatch
@@ -89,6 +92,7 @@
 - GitHub
 - Postman
 - Gatling
+- Locust
 - VSCode
 
 ### その他ツール
@@ -138,7 +142,38 @@
 サーバーサイドエンジニアとして入社。
 
 ---
-#### 2024/04 - 2024/08 : 動画SNS新規開発
+#### 2024/12 - 2025/05 : 人事評価システムリプレース
+- Python
+  - FastAPI
+  - SQLAlchemy
+- AWS
+  - AppRunner
+  - Lambda
+  - SES
+  - CDK
+  - Route53
+- Supabase
+
+すでにサポートが終了しているPHP7系からのリプレース。  
+セキュリティ、可用性の向上や、デザインのブラッシュアップが狙い。  
+インフラ、サーバーサイド、現システムからのデータ移行を担当した。  
+実装フェーズ後半からの参画で、前任者がほとんどドキュメントを残していなかったので、仕様の把握に時間を要した。
+
+---
+#### 2024/10 - 2024/12 : 求人メディアサイト新規開発
+- Next.js
+- Refine
+- Vercel
+- Supabase
+- Resend
+
+インタビュー形式の記事を掲載できる求人メディアサイトの新規開発。  
+主にインフラ、管理画面の実装（Refine）を担当した。  
+サーバーサイドAPIがなく、クライアントからSupabaseのAPIに直アクセスするアーキテクチャなので、SupabaseのRLSでセキュリティを担保する必要があったのが難しかった。  
+
+
+---
+#### 2024/04 - 2024/09 : 動画SNS新規開発
 - Python
 - AWS CDK (TypeScript)
 - AWS
